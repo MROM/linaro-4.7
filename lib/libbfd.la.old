@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -lz'
+dependency_libs=' -L/usr/lib32 -lz'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/x86_64-pc-linux-gnu/arm-linux-androideabi/lib'
+libdir='/tmp/android-toolchain-eabi/lib'
